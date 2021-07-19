@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Panda Shop</title>
+        <!-- Bootstrap CSS  -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <!-- Main StyleSheet  -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+                <div class="container">
+                    <img class="img-fluid" src="images/logo.png" alt="logo" />
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <form class="d-flex mx-auto">
+                            <input
+                                class="form-control me-2"
+                                type="search"
+                                placeholder="Search"
+                                aria-label="Search"
+                            />
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div
+                    id="hero-slider"
+                    class="carousel slide mt-4 rounded-3"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row p-4 d-flex align-items-center">
+                                <div class="col-md-7">
+                                    <h2 class="h1">Mi Led Tv 4K Pro 32</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Possimus quis
+                                        repellendus quaerat dolor maxime
+                                        pariatur tempora enim eius dolores
+                                        reprehenderit. Possimus quis repellendus
+                                        quaerat dolor maxime pariatur tempora
+                                        enim eius dolores reprehenderit.
+                                    </p>
+                                    <h4>$1298</h4>
+                                    <button class="btn btn-dark">
+                                        Buy Now
+                                    </button>
+                                </div>
+                                <div class="col-md-5">
+                                    <img
+                                        src="./images/banner-images/headphone.png"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row p-4 d-flex align-items-center">
+                                <div class="col-md-7">
+                                    <h2 class="h1">Mi Led Tv 4K Pro 32</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Possimus quis
+                                        repellendus quaerat dolor maxime
+                                        pariatur tempora enim eius dolores
+                                        reprehenderit. Possimus quis repellendus
+                                        quaerat dolor maxime pariatur tempora
+                                        enim eius dolores reprehenderit.
+                                    </p>
+                                    <h4>$1298</h4>
+                                    <button class="btn btn-dark">
+                                        Buy Now
+                                    </button>
+                                </div>
+                                <div class="col-md-5">
+                                    <img
+                                        src="./images/banner-images/tv.png"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row p-4 d-flex align-items-center">
+                                <div class="col-md-7">
+                                    <h2 class="h1">Mi Led Tv 4K Pro 32</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Possimus quis
+                                        repellendus quaerat dolor maxime
+                                        pariatur tempora enim eius dolores
+                                        reprehenderit. Possimus quis repellendus
+                                        quaerat dolor maxime pariatur tempora
+                                        enim eius dolores reprehenderit.
+                                    </p>
+                                    <h4>$1298</h4>
+                                    <button class="btn btn-dark">
+                                        Buy Now
+                                    </button>
+                                </div>
+                                <div class="col-md-5">
+                                    <img
+                                        src="./images/banner-images/xbox.png"
+                                        class="d-block w-100"
+                                        alt="..."
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#hero-slider"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#hero-slider"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <h2>Categories</h2>
+                    <div class="row g-4">
+                        <div
+                            class="
+                                col-md-4
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                            "
+                        >
+                            <h3>Bags</h3>
+                            <img src="images/categories/bag.png" alt="" />
+                        </div>
+                        <div
+                            class="
+                                col-md-4
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                            "
+                        >
+                            <h3>Shoes</h3>
+                            <img src="images/categories/shoes.png" alt="" />
+                        </div>
+                        <div
+                            class="
+                                col-md-4
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                            "
+                        >
+                            <h3>Watch</h3>
+                            <img src="images/categories/watch.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

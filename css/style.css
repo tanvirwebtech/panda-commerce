@@ -1,0 +1,6 @@
+:root {
+    --primary-bg: #feeae9;
+}
+#hero-slider {
+    background-color: var(--primary-bg);
+}
