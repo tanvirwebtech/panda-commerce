@@ -4,6 +4,9 @@
 a {
     text-decoration: none;
 }
+body {
+    background-color: #f4f4f4;
+}
 .panda-slider-bg {
     background-color: var(--primary-bg);
 }
@@ -33,4 +36,7 @@ a {
         rgba(66, 137, 255, 1) 0%,
         rgba(63, 7, 248, 1) 100%
     );
+}
+.card-radius {
+    border-radius: 20px;
 }
