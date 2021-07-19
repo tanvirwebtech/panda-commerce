@@ -7,6 +7,29 @@ a {
 body {
     background-color: #f4f4f4;
 }
+.nav-search {
+    width: 300px;
+    background-color: #f1f1f1;
+}
+.nav-search:focus {
+    box-shadow: none;
+
+    background-color: #f1f1f1;
+}
+@media (max-width: 575.98px) {
+    .nav-search {
+        margin-top: 20px;
+    }
+    .mobile-view-nav {
+        position: absolute;
+        left: 11px;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        top: 59px;
+        text-align: center;
+        z-index: 899;
+    }
+}
 .panda-slider-bg {
     background-color: var(--primary-bg);
 }

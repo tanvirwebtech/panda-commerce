@@ -17,9 +17,18 @@
     </head>
     <body>
         <header class="bg-white">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <nav
+                class="
+                    navbar navbar-expand-lg navbar-light
+                    bg-white
+                    p-3
+                    fixed-top
+                "
+            >
                 <div class="container">
-                    <img class="img-fluid" src="images/logo.png" alt="logo" />
+                    <a class="navbar-brand" href="#">
+                        <img class="img-fluid" src="images/logo.png" alt="logo"
+                    /></a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -32,18 +41,24 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div
-                        class="collapse navbar-collapse"
+                        class="collapse navbar-collapse mobile-view-nav"
                         id="navbarSupportedContent"
                     >
-                        <form class="d-flex mx-auto">
+                        <form class="d-flex mx-auto justify-content-center">
                             <input
-                                class="form-control me-2"
+                                class="
+                                    form-control
+                                    me-2
+                                    nav-search
+                                    rounded-pill
+                                    border-0
+                                "
                                 type="search"
                                 placeholder="Search"
                                 aria-label="Search"
                             />
                         </form>
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 h-100">
                             <li class="nav-item">
                                 <a
                                     class="nav-link active"
@@ -53,16 +68,20 @@
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="#categories"
+                                    >Categories</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
+                                <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#backpacks">Bags</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
+                                <a class="nav-link" href="#subscribe"
+                                    >Subscribe</a
+                                >
                             </li>
                         </ul>
                     </div>
