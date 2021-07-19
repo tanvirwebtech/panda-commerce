@@ -1,6 +1,36 @@
 :root {
     --primary-bg: #feeae9;
 }
-#hero-slider {
+a {
+    text-decoration: none;
+}
+.panda-slider-bg {
     background-color: var(--primary-bg);
+}
+.category-height {
+    height: 120px;
+}
+.category-bag-bg {
+    background: rgb(255, 156, 53);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 156, 53, 1) 0%,
+        rgba(255, 208, 25, 1) 100%
+    );
+}
+.category-shoes-bg {
+    background: rgb(255, 88, 155);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 88, 155, 1) 0%,
+        rgba(255, 19, 111, 1) 100%
+    );
+}
+.category-watch-bg {
+    background: rgb(66, 137, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(66, 137, 255, 1) 0%,
+        rgba(63, 7, 248, 1) 100%
+    );
 }
